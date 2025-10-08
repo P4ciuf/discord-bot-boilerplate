@@ -279,8 +279,8 @@ This project is licensed under the **MIT License**. See the `LICENSE` file for d
 
 Built with ❤️ by **P4ciuf**
 
-- GitHub: [@your-username](https://github.com/P4ciuf)
-- Discord: YourUsername#1234
+- GitHub: [@P4ciuf](https://github.com/P4ciuf)
+- Discord: p4ciuf
 
 ---
 
