@@ -77,7 +77,7 @@ const command: Command = {
     .setName("ping")
     .setDescription("Check the bot's latency"),
   
-  execute: async (interaction) => {
+  execute: (interaction: ChatInputCommandInteraction): Promise<void> => {
     const latency = Date.now() - interaction.createdTimestamp;
     await interaction.reply(`🏓 Pong! Latency: ${latency}ms`);
   },
@@ -106,7 +106,7 @@ const event: Event = {
   name: "ready",
   once: true,
   
-  execute: (interaction: ChatInputCommandInteraction): Promise<void> => {
+  execute(client: Client) {
     console.log(`✅ Bot is online as ${client.user?.tag}`);
     client.user?.setActivity("with slash commands", { type: "PLAYING" });
   },
