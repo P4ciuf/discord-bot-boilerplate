@@ -106,7 +106,7 @@ const event: Event = {
   name: "ready",
   once: true,
   
-  execute: (client: Client) => {
+  execute: (interaction: ChatInputCommandInteraction): Promise<void> => {
     console.log(`✅ Bot is online as ${client.user?.tag}`);
     client.user?.setActivity("with slash commands", { type: "PLAYING" });
   },
