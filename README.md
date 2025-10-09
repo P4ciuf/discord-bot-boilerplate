@@ -22,7 +22,7 @@ A modular Discord bot template built with **TypeScript**, **discord.js v14**, an
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/your-username/discord-bot-boilerplate.git
+git clone [https://github.com/your-username/discord-bot-boilerplate.git](https://github.com/P4ciuf/discord-bot-boilerplate)
 cd discord-bot-boilerplate
 ```
 
